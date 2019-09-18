@@ -1,100 +1,68 @@
-<!DOCTYPE html>
-<html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+@extends('layouts.jesse.main')
 
-        <title>Laravel</title>
+@section('content')
+	<div style="padding-top:2%;" id="services_section">
+	    <img alt="Triangle Backgrounds" class="right_top_corner_triangle_imgs" src="{{ asset('/jesse/img/triangle%20background.gif') }}" />
+	    <div id="services">
+	        <div class="one_third">
+	            <a href="/web-design.html">
+	                <img alt="web design icon" src="{{ asset('jesse/img/web%20design%20icon-min.png') }}" />
+	                <h3>Web Design</h3>
+	                <p>Offering all types of website design services like WordPress and hard coded sites.</p>
+	                <h5 class="link"><a href="/web-design.html">Learn More</a></h5>
+	            </a>
+	        </div>      
+	        <div class="one_third">
+	            <a href="/seo-services.html">
+	                <img alt="seo icon" src="{{ asset('/jesse/img/seo%20icon-min.png') }}" />
+	                <h3>SEO Services</h3>
+	                <p>Free consultation and analysis of what I can achieve getting traffic to your site.</p>
+	                <h5 class="link"><a href="/seo-services.html">Learn More</a></h5>
+	            </a>
+	        </div>
+	        <div class="one_third">
+	            <a href="/ecommerce-solutions.html">
+	                <img alt="ecommerce icon" src="{{ asset('/jesse/img/ecommerce%20icon-min.png') }}" />
+	                <h3>eCommerce</h3>
+	                <p>Sell products professionally on your website with easy to learn shop management.</p>
+	                <h5 class="link"><a href="/ecommerce-solutions.html">Learn More</a></h5>
+	            </a>
+	        </div>
+	    </div>
+	</div>
+	
+	<div style="width:100%; clear:both;" ></div>
+	
+	<div id="about_me_section">
+	    <div id="jesse_lange_head_shot">
+	        <img alt="Jesse Lange Head Shot" src="{{ asset('/jesse/img/Jesse%20Lange%20Portrait%20Photoshop-min.jpg') }}" />
+	    </div>
+	    <div id="about_me_summary">
+	        <p>Thanks for visiting my site. &nbsp;As you probably know by now my name is Jesse and I love web development. &nbsp;Been designing websites for years and I am fully certified through Rutgers University.</p>
+	        <p>Feel free to contact me I will be happy to discuss what I can do to help you reach your goals.</p>
+	    </div>
+	</div>
 
-        <!-- Fonts -->
-        <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
+	<div style="width:100%; clear:both;" ></div>
 
-        <!-- Styles -->
-        <style>
-            html, body {
-                background-color: #fff;
-                color: #636b6f;
-                font-family: 'Nunito', sans-serif;
-                font-weight: 200;
-                height: 100vh;
-                margin: 0;
-            }
+	<div id="my_portfolio_section">         
+	    
+	    <h2 class="page_header">Recent Work</h2>
+	    
+	    <div id="client_logos">
+	        <div class="slide"><img alt="Client Logo" src="{{ asset('/jesse/img/Beama-Life-Logo-min.png') }}"></div>
+	        <div class="slide"><img alt="Client Logo" src="{{ asset('/jesse/img/ZEFR-Logo-min.png') }}"></div>
+	        <div class="slide"><img alt="Client Logo" src="{{ asset('/jesse/img/Atlantic-Lawsuit-Funding-Logo-min.png') }}"></div>
+	        <div class="slide"><img alt="Client Logo" src="{{ asset('/jesse/img/Jersey-Shore-Wave-Logo-min.png') }}"></div>
+	        <div class="slide"><img alt="Client Logo" src="{{ asset('/jesse/img/Messano-Logo-min.png') }}"></div>
+	        <div class="slide"><img alt="Client Logo" src="{{ asset('/jesse/img/Fanz1-Sports-Logo-min.png') }}"></div>
+	        <div class="slide"><img alt="Client Logo" src="{{ asset('/jesse/img/GrFresh-Main-Logo-min.png') }}"></div>
+	        <div class="slide"><img alt="Client Logo" src="{{ asset('/jesse/img/NYU-School-of-Medicine-min.png') }}"></div>
+	    </div>
 
-            .full-height {
-                height: 100vh;
-            }
+	    <div id="portfolio_link_div">
+	        <a href="/portfolio.html">See my portfolio</a>
+	    </div>
 
-            .flex-center {
-                align-items: center;
-                display: flex;
-                justify-content: center;
-            }
-
-            .position-ref {
-                position: relative;
-            }
-
-            .top-right {
-                position: absolute;
-                right: 10px;
-                top: 18px;
-            }
-
-            .content {
-                text-align: center;
-            }
-
-            .title {
-                font-size: 84px;
-            }
-
-            .links > a {
-                color: #636b6f;
-                padding: 0 25px;
-                font-size: 13px;
-                font-weight: 600;
-                letter-spacing: .1rem;
-                text-decoration: none;
-                text-transform: uppercase;
-            }
-
-            .m-b-md {
-                margin-bottom: 30px;
-            }
-        </style>
-    </head>
-    <body>
-        <div class="flex-center position-ref full-height">
-            @if (Route::has('login'))
-                <div class="top-right links">
-                    @auth
-                        <a href="{{ url('/home') }}">Home</a>
-                    @else
-                        <a href="{{ route('login') }}">Login</a>
-
-                        @if (Route::has('register'))
-                            <a href="{{ route('register') }}">Register</a>
-                        @endif
-                    @endauth
-                </div>
-            @endif
-
-            <div class="content">
-                <div class="title m-b-md">
-                    Laravel
-                </div>
-
-                <div class="links">
-                    <a href="https://laravel.com/docs">Docs</a>
-                    <a href="https://laracasts.com">Laracasts</a>
-                    <a href="https://laravel-news.com">News</a>
-                    <a href="https://blog.laravel.com">Blog</a>
-                    <a href="https://nova.laravel.com">Nova</a>
-                    <a href="https://forge.laravel.com">Forge</a>
-                    <a href="https://vapor.laravel.com">Vapor</a>
-                    <a href="https://github.com/laravel/laravel">GitHub</a>
-                </div>
-            </div>
-        </div>
-    </body>
-</html>
+	</div>
+@endsection
