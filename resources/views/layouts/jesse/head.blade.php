@@ -8,7 +8,6 @@
     
     <!--  Meta Viewport for Scaling Mobile Devices --> 
     <meta name="format-detection" content="telephone=no">
-    <meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=no; maximum-scale=2.0"> 
     <meta name="robots" content="index, follow" />
     
     <link rel="shortcut icon" type="image/png" href="{{ asset('/jesse/img/jesse%20logo%20favicon.png') }}"/>
