@@ -14,7 +14,11 @@
 	            </a>
 	        </div>
 	        <div id="phone_contact_div">    
-	            <p><a style="text-decoration:none; color:#147c26;" href="tel:7326081230">732.608.1230</a></p>
+	            <p><a style="text-decoration:none; color:#147c26;" href="tel:7326081230">+62 819 336 177 07</a></p>
+	            <a href="tel:7326081230"><img alt="Cell Phone Icon" src="{{ asset('jesse/img/cell_phone_icon-min.png') }}" /></a>
+	        </div>
+	        <div id="phone_contact_div">    
+	            <p><a style="text-decoration:none; color:#147c26;" href="tel:7326081230">+62 819 336 177 07</a></p>
 	            <a href="tel:7326081230"><img alt="Cell Phone Icon" src="{{ asset('jesse/img/cell_phone_icon-min.png') }}" /></a>
 	        </div>
 	    </div>
@@ -22,10 +26,10 @@
 	    <div id="banner">
 	        <img alt="Main Banner" id="main_banner_img" src="{{ asset('jesse/img/main%20banner-min.png') }}" />
 	        <div id="banner_header">
-	            <h1>NEW JERSEY WEBSITE DEVELOPER</h1>
-	            <h2>Hi! My name is Jesse and I build awesome websites!</h2>
+	            <h1>Web App Developer</h1>
+	            <h2>Hi! I'm Andri, a Full Stack Developer and I build awesome web apps!</h2>
 	            <div>
-	                <a href="/#contact">Contact me today!</a>
+	                <a href="/#contact">Contact me now!</a>
 	            </div>
 	        </div>
 	    </div>
@@ -65,11 +69,11 @@
 	
 	<div id="about_me_section">
 	    <div id="jesse_lange_head_shot">
-	        <img alt="Jesse Lange Head Shot" src="{{ asset('/jesse/img/Jesse%20Lange%20Portrait%20Photoshop-min.jpg') }}" />
+	        <img alt="Jesse Lange Head Shot" src="{{ asset('/jesse/img/profile.png') }}" />
 	    </div>
 	    <div id="about_me_summary">
-	        <p>Thanks for visiting my site. &nbsp;As you probably know by now my name is Jesse and I love web development. &nbsp;Been designing websites for years and I am fully certified through Rutgers University.</p>
-	        <p>Feel free to contact me I will be happy to discuss what I can do to help you reach your goals.</p>
+	        <p>Hey, you've found me! I'm Andri and I love web development. I'm a passionate coder, been developing web applications since 2004 (So it's about 15 years experience, mate!). </p>
+	        <p>I would love to share my knowledge to help you fulfill your web application needs. Whether it's a website development, company profile, bug fixing, troubleshooting, and those techie stuff. Feel free to contact me, I will be happy to discuss what I can do to help you!</p>
 	    </div>
 	</div>
 
@@ -77,17 +81,17 @@
 
 	<div id="my_portfolio_section">         
 	    
-	    <h2 class="page_header">Recent Work</h2>
+	    <h2 class="page_header">Competencies</h2>
 	    
 	    <div id="client_logos">
-	        <div class="slide"><img alt="Client Logo" src="{{ asset('/jesse/img/Beama-Life-Logo-min.png') }}"></div>
-	        <div class="slide"><img alt="Client Logo" src="{{ asset('/jesse/img/ZEFR-Logo-min.png') }}"></div>
-	        <div class="slide"><img alt="Client Logo" src="{{ asset('/jesse/img/Atlantic-Lawsuit-Funding-Logo-min.png') }}"></div>
-	        <div class="slide"><img alt="Client Logo" src="{{ asset('/jesse/img/Jersey-Shore-Wave-Logo-min.png') }}"></div>
-	        <div class="slide"><img alt="Client Logo" src="{{ asset('/jesse/img/Messano-Logo-min.png') }}"></div>
-	        <div class="slide"><img alt="Client Logo" src="{{ asset('/jesse/img/Fanz1-Sports-Logo-min.png') }}"></div>
-	        <div class="slide"><img alt="Client Logo" src="{{ asset('/jesse/img/GrFresh-Main-Logo-min.png') }}"></div>
-	        <div class="slide"><img alt="Client Logo" src="{{ asset('/jesse/img/NYU-School-of-Medicine-min.png') }}"></div>
+	        <div class="slide"><img height="150px" width="200px" alt="Laravel 6" src="{{ asset('/jesse/img/laravel6.jpg') }}"></div>
+	        <div class="slide"><img alt="Yii Framework" src="{{ asset('/jesse/img/yii.jpg') }}"></div>
+	        <div class="slide"><img alt="HTML CSS" src="{{ asset('/jesse/img/htmlcss.png') }}"></div>
+	        <div class="slide"><img alt="Node JS" src="{{ asset('/jesse/img/nodejs.jpg') }}"></div>
+	        <div class="slide"><img alt="jQuery" src="{{ asset('/jesse/img/jquery.png') }}"></div>
+	        <div class="slide"><img alt="Angular" src="{{ asset('/jesse/img/angular.jpg') }}"></div>
+	        <div class="slide"><img alt="Bootstrap" src="{{ asset('/jesse/img/bootstrap.png') }}"></div>
+	        <div class="slide"><img alt="Vue JS" src="{{ asset('/jesse/img/vuejs.jpg') }}"></div>
 	    </div>
 
 	    <div id="portfolio_link_div">
