@@ -8,76 +8,27 @@
 	<header>
 	    <div id="top_bar">
 	        <div id="title_div">
-	            <a style="text-decoration:none; color:#121011;" href="https://jessethewebguy.com/">
-	                <img alt="Jesse The Web Guy Logo" src="{{ asset('jesse/img/jesse%20headshot%20cartoon%20logo-min.png') }}" />
-	                <p>Jesse The Web Guy</p>
+	            <a style="text-decoration:none; color:#121011;" href="https://andriwicaksono.com/">
+	                <img alt="Andri Wicaksono Logo" src="{{ asset('jesse/img/glasses.png') }}" width="20%" />
+	                <p>Andri Wicaksono</p>
 	            </a>
 	        </div>
 	        <div id="phone_contact_div">    
 	            <p><a style="text-decoration:none; color:#147c26;" href="tel:7326081230">+62 819 336 177 07</a></p>
-	            <a href="tel:7326081230"><img alt="Cell Phone Icon" src="{{ asset('jesse/img/cell_phone_icon-min.png') }}" /></a>
-	        </div>
-	        <div id="phone_contact_div">    
-	            <p><a style="text-decoration:none; color:#147c26;" href="tel:7326081230">+62 819 336 177 07</a></p>
-	            <a href="tel:7326081230"><img alt="Cell Phone Icon" src="{{ asset('jesse/img/cell_phone_icon-min.png') }}" /></a>
+	            <a href="tel:7326081230"><img alt="Cell Phone Icon" src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" style="background-color: #fff;" /></a>
 	        </div>
 	    </div>
-
-	    <div id="banner">
-	        <img alt="Main Banner" id="main_banner_img" src="{{ asset('jesse/img/main%20banner-min.png') }}" />
-	        <div id="banner_header">
-	            <h1>Web App Developer</h1>
-	            <h2>Hi! I'm Andri, a Full Stack Developer and I build awesome web apps!</h2>
-	            <div>
-	                <a href="/#contact">Contact me now!</a>
-	            </div>
-	        </div>
-	    </div>
+		<div id="about_me_section">
+		    <div id="jesse_lange_head_shot">
+		        <img alt="Jesse Lange Head Shot" src="{{ asset('/jesse/img/profile.png') }}" />
+		    </div>
+		    <div id="about_me_summary">
+		        <p>Hey, you've found me! I'm Andri, a Full Stack Developer who love app development. I'm a passionate coder, been developing awesome web applications since 2009 (So it's around 10 years experience, mate!). </p>
+		        <p>I would love to share my knowledge to help you fulfill your web application needs. Whether it's a website development, company profile, bug fixing, troubleshooting, and those techie stuff. Feel free to contact me, I will be happy to discuss what I can do to help you!</p>
+		    </div>
+		</div>
 
 	</header>
-	<div style="padding-top:2%;" id="services_section">
-	    <img alt="Triangle Backgrounds" class="right_top_corner_triangle_imgs" src="{{ asset('/jesse/img/triangle%20background.gif') }}" />
-	    <div id="services">
-	        <div class="one_third">
-	            <a href="/web-design.html">
-	                <img alt="web design icon" src="{{ asset('jesse/img/web%20design%20icon-min.png') }}" />
-	                <h3>Web Design</h3>
-	                <p>Offering all types of website design services like WordPress and hard coded sites.</p>
-	                <h5 class="link"><a href="/web-design.html">Learn More</a></h5>
-	            </a>
-	        </div>      
-	        <div class="one_third">
-	            <a href="/seo-services.html">
-	                <img alt="seo icon" src="{{ asset('/jesse/img/seo%20icon-min.png') }}" />
-	                <h3>SEO Services</h3>
-	                <p>Free consultation and analysis of what I can achieve getting traffic to your site.</p>
-	                <h5 class="link"><a href="/seo-services.html">Learn More</a></h5>
-	            </a>
-	        </div>
-	        <div class="one_third">
-	            <a href="/ecommerce-solutions.html">
-	                <img alt="ecommerce icon" src="{{ asset('/jesse/img/ecommerce%20icon-min.png') }}" />
-	                <h3>eCommerce</h3>
-	                <p>Sell products professionally on your website with easy to learn shop management.</p>
-	                <h5 class="link"><a href="/ecommerce-solutions.html">Learn More</a></h5>
-	            </a>
-	        </div>
-	    </div>
-	</div>
-	
-	<div style="width:100%; clear:both;" ></div>
-	
-	<div id="about_me_section">
-	    <div id="jesse_lange_head_shot">
-	        <img alt="Jesse Lange Head Shot" src="{{ asset('/jesse/img/profile.png') }}" />
-	    </div>
-	    <div id="about_me_summary">
-	        <p>Hey, you've found me! I'm Andri and I love web development. I'm a passionate coder, been developing web applications since 2004 (So it's about 15 years experience, mate!). </p>
-	        <p>I would love to share my knowledge to help you fulfill your web application needs. Whether it's a website development, company profile, bug fixing, troubleshooting, and those techie stuff. Feel free to contact me, I will be happy to discuss what I can do to help you!</p>
-	    </div>
-	</div>
-
-	<div style="width:100%; clear:both;" ></div>
 
 	<div id="my_portfolio_section">         
 	    
@@ -94,9 +45,39 @@
 	        <div class="slide"><img alt="Vue JS" src="{{ asset('/jesse/img/vuejs.jpg') }}"></div>
 	    </div>
 
-	    <div id="portfolio_link_div">
-	        <a href="{{ url('/portfolio') }}">See my portfolio</a>
-	    </div>
-
 	</div>
+
+	<div style="padding-top:2%;" id="services_section">
+	    <img alt="Triangle Backgrounds" class="right_top_corner_triangle_imgs" src="{{ asset('/jesse/img/triangle%20background.gif') }}" />
+	    <div id="services">
+	        <div class="one_third">
+	            <a href="https://jalanjalan.andriwicaksono.com" target="_blank">
+	                <img alt="web design icon" src="{{ asset('jesse/img/web%20design%20icon-min.png') }}" />
+	                <h3>Travel Notes</h3>
+	                <p>I have a passport full of stamps! Find the inspiration and read my travel story here.</p>
+	                <h5 class="link"><a href="https://jalanjalan.andriwicaksono.com" target="_blank">Learn More</a></h5>
+	            </a>
+	        </div>      
+	        <div class="one_third">
+	            <a href="https://indocoder.com" target="_blank">
+	                <img alt="seo icon" src="{{ asset('/jesse/img/seo%20icon-min.png') }}" />
+	                <h3>Programming Tutorials</h3>
+	                <p>I just love to code! Want to try to code by yourself? Find my programming tutorials here.</p>
+	                <h5 class="link"><a href="https://indocoder.com" target="_blank">Learn More</a></h5>
+	            </a>
+	        </div>
+	        <div class="one_third">
+	            <a href="{{ url('/portfolio') }}">
+	                <img alt="ecommerce icon" src="{{ asset('/jesse/img/ecommerce%20icon-min.png') }}" />
+	                <h3>Portolio</h3>
+	                <p>In the last 10 years, I have made some interesting web apps, see my portfolio here.</p>
+	                <h5 class="link"><a href="{{ url('/portfolio') }}">Learn More</a></h5>
+	            </a>
+	        </div>
+	    </div>
+	</div>
+
+
+	<div style="width:100%; clear:both;" ></div>
+
 @endsection

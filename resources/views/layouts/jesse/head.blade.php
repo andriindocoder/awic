@@ -1,7 +1,7 @@
 <head>
-    <title>Jesse The Web Guy - Home Page</title>
-    <meta name="description" content="Offering all kinds of website design services in Toms River and through out New Jersey. Contact me today for a free evaluation." />
-    <meta name="keywords" content="New Jersey, ,Toms River, Brick, Manchester, Jackson, website services" />
+    <title>Andri Wicaksono - Home Page</title>
+    <meta name="description" content="Andri Wicaksono, A Full Stack Developer Website and Portfolio." />
+    <meta name="keywords" content="Andri Wicaksono, Full Stack Developer" />
     <meta name="robots" content="index,follow" />
     
     <meta charset="utf-8"> 
@@ -10,10 +10,12 @@
     <meta name="format-detection" content="telephone=no">
     <meta name="robots" content="index, follow" />
     
-    <link rel="shortcut icon" type="image/png" href="{{ asset('/jesse/img/jesse%20logo%20favicon.png') }}"/>
+    <link rel="shortcut icon" type="image/png" href="{{ asset('/jesse/img/glasses.png') }}"/>
             
     <link href="{{ asset('/jesse/css/style.css') }}" rel="stylesheet" type="text/css" media="screen">
     <style>
-        
+        #footer_bar {
+            background-color: #000;
+        }
     </style>    
 </head>

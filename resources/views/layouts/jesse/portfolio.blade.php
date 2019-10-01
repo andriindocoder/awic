@@ -7,19 +7,19 @@
 	<body>
 		
 		<header>
-			<div id="top_bar">
-				<div id="title_div">
-					<a style="text-decoration:none; color:#121011;" href="https://jessethewebguy.com/">
-						<img alt="Jesse The Web Guy Logo" src="{{ asset('jesse/img/jesse%20headshot%20cartoon%20logo-min.png') }}" />
-						<p>Jesse The Web Guy</p>
-					</a>
-				</div>
-				<div id="phone_contact_div">	
-					<p><a style="text-decoration:none; color:#147c26;" href="tel:7326081230">732.608.1230</a></p>
-					<a href="tel:7326081230"><img alt="Cell Phone Icon" src="{{ asset('/jesse/img/cell_phone_icon-min.png') }}" /></a>
-				</div>
-			</div>
-		
+		    <div id="top_bar">
+		        <div id="title_div">
+		            <a style="text-decoration:none; color:#121011;" href="{{ url('/') }}">
+		                <img alt="Andri Wicaksono Logo" src="{{ asset('jesse/img/glasses.png') }}" width="20%" />
+		                <p>Andri Wicaksono</p>
+		            </a>
+		        </div>
+		        <div id="phone_contact_div">    
+		            <p><a style="text-decoration:none; color:#147c26;" href="tel:7326081230">+62 819 336 177 07</a></p>
+		            <a href="tel:7326081230"><img alt="Cell Phone Icon" src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" style="background-color: #fff;" /></a>
+		        </div>
+		    </div>
+
 		</header>
 		
 		<div class="main_content">
@@ -31,13 +31,28 @@
 				
 				<div>
 					<div class="one_third">
-						<a href="https://mykitchenintuition.com/" target="_blank" ><img alt="Web Design Project by Jesse Lange" src="{{ asset('/jesse/img/my-kitchen-intuition-min.jpg') }}" /><p>www.mykitchenintuition.com</p></a>
+						<a href="https://vta.dephub.go.id/ds/developer" target="_blank" ><img alt="Web Development Projects by Andri Wicaksono" src="{{ asset('/jesse/img/vta.png') }}" /><p>vta.dephub.go.id</p></a>
+						<div align="center">
+							<img style="height: 30px; width: 30px; border: none;" src="{{ asset('/jesse/img/htmlcss.png') }}" alt="">
+							<img style="height: 30px; width: 30px; border: none;" src="{{ asset('/jesse/img/yii.jpg') }}" alt="">
+							<img style="height: 30px; width: 30px; border: none;" src="{{ asset('/jesse/img/bootstrap.png') }}" alt="">
+						</div>
 					</div>
 					<div class="one_third">
-						<a href="https://thebuffbride.com/" target="_blank" ><img alt="Web Design Project by Jesse Lange" src="{{ asset('/jesse/img/the%20buff%20bride-min.jpg') }}" /><p>www.thebuffbride.com</p></a>
+						<a href="http://oppriok.dephub.go.id/" target="_blank" ><img alt="Web Development Projects by Andri Wicaksono" src="{{ asset('/jesse/img/priok.png') }}" /><p>oppriok.dephub.go.id</p></a>
+						<div align="center">
+							<img style="height: 30px; width: 30px; border: none;" src="{{ asset('/jesse/img/htmlcss.png') }}" alt="">
+							<img style="height: 30px; width: 30px; border: none;" src="{{ asset('/jesse/img/logolaravel.png') }}" alt="">
+							<img style="height: 30px; width: 30px; border: none;" src="{{ asset('/jesse/img/bootstrap.png') }}" alt="">
+						</div>
 					</div>
 					<div class="one_third">
-						<a href="https://www.messanoassociates.com/" target="_blank" ><img alt="Web Design Project by Jesse Lange" src="{{ asset('/jesse/img/messano-associates-inc-min.jpg') }}" /><p>www.messanoassociates.com</p></a>				
+						<a href="https://todo.indocoder.com/" target="_blank" ><img alt="Web Development Projects by Andri Wicaksono" src="{{ asset('/jesse/img/todo.png') }}" /><p>todo.indocoder.com</p></a>
+						<div align="center">
+							<img style="height: 30px; width: 30px; border: none;" src="{{ asset('/jesse/img/htmlcss.png') }}" alt="">
+							<img style="height: 30px; width: 30px; border: none;" src="{{ asset('/jesse/img/angular.jpg') }}" alt="">
+							<img style="height: 30px; width: 30px; border: none;" src="{{ asset('/jesse/img/bootstrap.png') }}" alt="">
+						</div>		
 					</div>				
 				</div>
 				
@@ -45,48 +60,45 @@
 				
 				<div>
 					<div class="one_third">
-						<a href="https://grfreshmarket.com/" target="_blank" ><img alt="Web Design Project by Jesse Lange" src="{{ asset('/jesse/img/grfresh%20market-min.jpg') }}" /><p>www.grfreshmarket.com</p></a>
+						<a href="http://bp3ksdmt.dephub.go.id/" target="_blank" ><img alt="Web Development Projects by Andri Wicaksono" src="{{ asset('/jesse/img/bp3ksdmt.png') }}" /><p>bp3ksdmt.dephub.go.id</p></a>
+						<div align="center">
+							<img style="height: 30px; width: 30px; border: none;" src="{{ asset('/jesse/img/htmlcss.png') }}" alt="">
+							<img style="height: 30px; width: 30px; border: none;" src="{{ asset('/jesse/img/yii.jpg') }}" alt="">
+							<img style="height: 30px; width: 30px; border: none;" src="{{ asset('/jesse/img/bootstrap.png') }}" alt="">
+						</div>
 					</div>				
 					<div class="one_third">
-						<a href="https://jerseyshorewave.com/" target="_blank" ><img alt="Web Design Project by Jesse Lange" src="{{ asset('/jesse/img/jersey%20shore%20wave-min.jpg') }}" /><p>www.jerseyshorewave.com</p></a>
+						<a href="https://inaportnet.dephub.go.id/" target="_blank" ><img alt="Web Development Projects by Andri Wicaksono" src="{{ asset('/jesse/img/inaportnet.png') }}" /><p>inaportnet.dephub.go.id</p></a>
+						<div align="center">
+							<img style="height: 30px; width: 30px; border: none;" src="{{ asset('/jesse/img/htmlcss.png') }}" alt="">
+							<img style="height: 30px; width: 30px; border: none;" src="{{ asset('/jesse/img/yii.jpg') }}" alt="">
+							<img style="height: 30px; width: 30px; border: none;" src="{{ asset('/jesse/img/bootstrap.png') }}" alt="">
+						</div>
 					</div>				
 					<div class="one_third">
-						<a href="http://www.zefrboards.com/" target="_blank" ><img alt="Web Design Project by Jesse Lange" src="{{ asset('/jesse/img/zefr%20redesign-min.jpg') }}" /><p>www.zefrboards.com</p></a>
+						<a href="http://indocoder.com/" target="_blank" ><img alt="Web Development Projects by Andri Wicaksono" src="{{ asset('/jesse/img/indocoder.png') }}" /><p>indocoder.com</p></a>
+						<div align="center">
+							<img style="height: 30px; width: 30px; border: none;" src="{{ asset('/jesse/img/htmlcss.png') }}" alt="">
+							<img style="height: 30px; width: 30px; border: none;" src="{{ asset('/jesse/img/wordpress.png') }}" alt="">
+							<img style="height: 30px; width: 30px; border: none;" src="{{ asset('/jesse/img/bootstrap.png') }}" alt="">
+						</div>
+					</div>
+				</div>
+
+				<div style="clear:both;"></div>
+				
+				<div>
+					<div class="one_third">
+						<a href="https://github.com/andriindocoder/" target="_blank" ><img alt="Web Development Projects by Andri Wicaksono" src="{{ asset('/jesse/img/github.png') }}" /><p>github.com/andriindocoder</p></a>
+					</div>				
+					<div class="one_third">
+						<a href="https://gitlab.com/sniperandri" target="_blank" ><img alt="Web Development Projects by Andri Wicaksono" src="{{ asset('/jesse/img/gitlab.png') }}" /><p>gitlab.com/sniperandri</p></a>
+					</div>				
+					<div class="one_third">
+						<a href="http://bitbucket.org/andriwicaksono" target="_blank" ><img alt="Web Development Projects by Andri Wicaksono" src="{{ asset('/jesse/img/bitbucket.png') }}" /><p>bitbucket.org/andriwicaksono</p></a>
 					</div>
 				</div>
 			</div>	
-
-			<div style="clear:both;"></div>
-
-			<div id="services_section">
-				
-				<div id="services">
-					<div class="one_third">
-						<a href="/web-design.html">
-							<img alt="web design icon" src="{{ asset('/jesse/img/web%20design%20icon-min.png') }}" />
-							<h3>Web Design</h3>
-							<p>Offering all types of website design services like WordPress and hard coded sites.</p>
-							<h5 class="link"><a href="/web-design.html">Learn More</a></h5>
-						</a>
-					</div>		
-					<div class="one_third">
-						<a href="/seo-services.html">
-							<img alt="seo icon" src="{{ asset('/jesse/img/seo%20icon-min.png') }}" />
-							<h3>SEO Services</h3>
-							<p>Free consultation and analysis of what I can achieve getting traffic to your site.</p>
-							<h5 class="link"><a href="/seo-services.html">Learn More</a></h5>
-						</a>
-					</div>
-					<div class="one_third">
-						<a href="/ecommerce-solutions.html">
-							<img alt="ecommerce icon" src="{{ asset('/jesse/img/ecommerce%20icon-min.png') }}" />
-							<h3>eCommerce</h3>
-							<p>Sell products professionally on your website with easy to learn shop management.</p>
-							<h5 class="link"><a href="/ecommerce-solutions.html">Learn More</a></h5>
-						</a>
-					</div>
-				</div>
-			</div>
 					
 		</div>			
 			
